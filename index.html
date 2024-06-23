@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Rock Paper Scissors Game</h1>
+      <h3>Your Choice</h3>
+      <button class="user-option" data-choice="rock"><h1>✊ Rock</h1></button>
+      <button class="user-option" data-choice="paper"><h1>✋ Paper</h1></button>
+      <button class="user-option" data-choice="scissors">
+        <h1>✌️ Scissors</h1>
+      </button>
+      <div id="result"></div>
+      <table id="results-table" style="display: none">
+        <thead>
+          <tr>
+            <th>Round</th>
+            <th>Your Choice</th>
+            <th>Computer Choice</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div id="final-winner" style="display: none"></div>
+    </main>
+  </body>
+</html>
