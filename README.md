@@ -1,1 +1,3 @@
-# odin-rock-paper-scissors
+# Simple Rock Paper Scissors
+
+using HTML and JS
